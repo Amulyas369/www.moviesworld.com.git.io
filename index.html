@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./apps.js" defer type="module"> </script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="nav_bar" id="sticky">
+        <div class="logo">
+            <img src="https://www.siamadventureclub.com/wp-content/uploads/thumbs_dir/ALL-Logo-Movie-World-piowqe7pki2y0d3n5js6gipuashdhu1cbx46gyjnk0.png" alt="" class="logo_image">
+       </div>
+       <input type="search" id="search" name="search" placeholder="Search Heare">
+       <ul class="link_list">
+        <li> <a href="#home">Home</a></li>
+        <li><a href="#About_us">About us</a></li>
+        <li><a href="#know_more">Know More</a></li>
+       </ul>
+       <div id="menu">
+        <button type="button" id="mbar" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    </div>
+        
+    </nav>
+
+    <main id="home">
+        <ul id="menu_section">
+            <li> <a href="#home">Home</a></li>
+            <li><a href="#About_us">About us</a></li>
+            <li><a href="#know_more">Know More</a></li>
+           </ul>
+        <div id="movie-holder">
+
+        </div>
+
+    </main>
+    <div id="booker">
+        <ul class="booking_section">
+            <li>
+              <div class="seat"></div>
+              <small>Available</small>
+            </li>
+            <li>
+              <div class="seat selected"></div>
+              <small>Selected</small>
+            </li>
+            <li>
+              <div class="seat sold"></div>
+              <small>Sold</small>
+            </li>
+          </ul>
+        <h3 class="v-none">Seat Selector</h3>
+        <div class="screen_container"><div class="screen">Smoking and Drinking Alcohol injurious to Health</div></div>
+        <div id="booker-grid-holder">
+            <div class="booking-grid">
+                <div class="seat sold" id="booking- grid- gridNumber">01</div>
+                <div class="seat sold" id="booking- grid- gridNumber">02</div>
+                <div class="seat" id="booking- grid- gridNumber">03</div>
+                <div class="seat" id="booking- grid- gridNumber">04</div>
+                <div class="seat" id="booking- grid- gridNumber">05</div>
+                <div class="seat sold" id="booking- grid- gridNumber">06</div>
+                <div class="seat" id="booking- grid- gridNumber">07</div>
+                <div class="seat" id="booking- grid- gridNumber">08</div>
+                <div class="seat sold" id="booking- grid- gridNumber">09</div>
+                <div class="seat" id="booking- grid- gridNumber">10</div>
+                <div class="seat" id="booking- grid- gridNumber">11</div>
+                <div class="seat" id="booking- grid- gridNumber">12</div>
+              </div>
+              <div class="booking-grid">
+                <div class="seat" id="booking- grid- gridNumber">13</div>
+                <div class="seat" id="booking- grid- gridNumber">14</div>
+                <div class="seat" id="booking- grid- gridNumber">15</div>
+                <div class="seat" id="booking- grid- gridNumber">16</div>
+                <div class="seat" id="booking- grid- gridNumber">17</div>
+                <div class="seat sold" id="booking- grid- gridNumber">18</div>
+                <div class="seat sold" id="booking- grid- gridNumber">19</div>
+                <div class="seat" id="booking- grid- gridNumber">20</div>
+                <div class="seat" id="booking- grid- gridNumber">21</div>
+                <div class="seat" id="booking- grid- gridNumber">22</div>
+                <div class="seat" id="booking- grid- gridNumber">23</div>
+                <div class="seat sold" id="booking- grid- gridNumber">24</div>
+              </div>
+        </div>
+        <button id="book-ticket-btn" class="v-none">Book my seats</button>
+        <p class="text">
+            You have selected <span id="count">0</span> seat for a price of RS.<span
+              id="total"
+              >0</span
+            >
+          </p>
+
+    </div>
+
+    <footer>
+        <div class="about-me">
+            <h3>about me</h3>
+            <p>I have tested a number of registry fix and clean utilities and present our top 3 list on my site for your convenience.</p>
+            <p>Copyright ©2022 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <span> @Amulya</span></p>
+        </div>
+        <div class="newsletter">
+            <h3>Newsletter</h3>
+            <p>Stay updated with my latest trends</p>
+            <input type="email" id="femail" name="femail" placeholder="Enter Email Address" required>
+            <button type="button" id="footer-button" onclick="updateFunction()"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+        </div>
+        <div class="follow-me">
+            <h3>Follow Me</h3>
+            <p>Let us be social</p>
+            <div class="social">
+                <li><a href="https://www.facebook.com/amulyakumar.senapati.14" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/amulya-kumar-senapati-a64243225" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/AmulyaKumarSen2?t=wu8s0k7RQnqy99lOXKCSng&s=09" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/Amulyas369" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
